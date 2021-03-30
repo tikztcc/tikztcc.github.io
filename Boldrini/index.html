@@ -4,7 +4,7 @@
 			<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>EstMat - Divulgação de Conteúdo</title>
+		<title>Imagens Boldrini</title>
 		<meta name="description" content="Hugrid - grid theme for Hugo with an expanding image preview." />
 		<meta name="keywords" content="Hugo, Hugo theme, grid theme, portfolio, bookmarks, collection, contacts" />
 		<meta name="author" content="Kan" />
@@ -420,7 +420,7 @@ ga('send', 'pageview');
 					create : function() {
 						this.$title = $( '<h3></h3>' );
 						this.$description = $( '<p></p>' );
-						this.$href = $( '<a href="#" target="_blank">Download do arquivo</a>' );
+						this.$href = $( '<a href="#" target="_blank">clique aqui</a>' );
 						this.$details = $( '<div class="og-details"></div>' ).append( this.$title, this.$description, this.$href );
 						this.$loading = $( '<div class="og-loading"></div>' );
 						this.$fullimage = $( '<div class="og-fullimg"></div>' ).append( this.$loading );
@@ -459,7 +459,7 @@ ga('send', 'pageview');
 						this.$title.html( eldata.title );
 						this.$description.html( eldata.description );
 						if(eldata.buttontext) this.$href.text(eldata.buttontext);
-						else this.$href.text("Download do arquivo")
+						else this.$href.text("Clique aqui")
 
 						if (eldata.href) {
 							this.$href.attr( 'href', eldata.href );
